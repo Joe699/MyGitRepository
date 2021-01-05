@@ -1,0 +1,66 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Thu Oct 22 16:45:04 2020
+| Host         : yjw running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file recv_ctrl_control_sets_placed.rpt
+| Design       : recv_ctrl
+| Device       : xc7vx485t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    13 |
+| Minimum Number of register sites lost to control set restrictions |    57 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              11 |            5 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              33 |           11 |
+| Yes          | No                    | No                     |              34 |           10 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              41 |           14 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-----------------------+-----------------------+------------------+----------------+
+|     Clock Signal    |     Enable Signal     |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++---------------------+-----------------------+-----------------------+------------------+----------------+
+|  clk_proc_IBUF_BUFG |                       | prepare               |                4 |              4 |
+|  clk_proc_IBUF_BUFG | time_1ms              | cnt_6ms[3]_i_1_n_0    |                1 |              4 |
+|  clk_proc_IBUF_BUFG | jump_len[3]_i_1_n_0   | prepare               |                2 |              4 |
+|  clk_proc_IBUF_BUFG |                       | rst_IBUF              |                1 |              5 |
+|  clk_proc_IBUF_BUFG | cnt_search03_out      | cnt_search[4]_i_1_n_0 |                1 |              5 |
+|  clk_proc_IBUF_BUFG | get_freq_en           | rst_IBUF              |                3 |              9 |
+|  clk_proc_IBUF_BUFG | TODH_local[0]_i_1_n_0 |                       |                3 |              9 |
+|  clk_proc_IBUF_BUFG | TODH_cal[8]_i_1_n_0   |                       |                3 |              9 |
+|  clk_proc_IBUF_BUFG | TODH_bias             | prepare               |                3 |              9 |
+|  clk_proc_IBUF_BUFG | cnt_jump0             | cnt_jump              |                4 |             10 |
+|  clk_proc_IBUF_BUFG |                       |                       |                5 |             11 |
+|  clk_proc_IBUF_BUFG | TODL_local[0]_i_1_n_0 |                       |                4 |             16 |
+|  clk_proc_IBUF_BUFG |                       | cnt_1ms[0]_i_1_n_0    |                6 |             24 |
++---------------------+-----------------------+-----------------------+------------------+----------------+
+
+

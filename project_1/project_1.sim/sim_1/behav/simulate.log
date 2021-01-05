@@ -1,0 +1,14 @@
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Time: 0 ps  Iteration: 0  Process: /test_recv_new/sync_head_send_u0/syncprotect_lutrom_u0/U0/p_warn_behavioural  File: E:/sync_project/project_1/project_1.ip_user_files/ipstatic/dist_mem_gen_v8_0_9/simulation/dist_mem_gen_v8_0.vhd
+Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Time: 0 ps  Iteration: 0  Process: /test_recv_new/sync_head_send_u0/walshtable_u0/U0/p_warn_behavioural  File: E:/sync_project/project_1/project_1.ip_user_files/ipstatic/dist_mem_gen_v8_0_9/simulation/dist_mem_gen_v8_0.vhd
+Note: Block Memory Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+Time: 70098750 ps  Iteration: 4  Process: /test_recv_new/cor_sync_uO/receive_symb_i/U0/native_mem_module/mem_module/line__3418  File: E:/sync_project/project_1/project_1.ip_user_files/ipstatic/blk_mem_gen_v8_3_1/simulation/blk_mem_gen_v8_3.vhd
+Note: Block Memory Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+Time: 70098750 ps  Iteration: 4  Process: /test_recv_new/cor_sync_uO/receive_symb_q/U0/native_mem_module/mem_module/line__3418  File: E:/sync_project/project_1/project_1.ip_user_files/ipstatic/blk_mem_gen_v8_3_1/simulation/blk_mem_gen_v8_3.vhd
+Note: Block Memory Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+Time: 80588333 ps  Iteration: 3  Process: /test_recv_new/cor_sync_uO/ram_sum_i_u0/U0/native_mem_module/mem_module/line__3418  File: E:/sync_project/project_1/project_1.ip_user_files/ipstatic/blk_mem_gen_v8_3_1/simulation/blk_mem_gen_v8_3.vhd
+Note: Block Memory Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+Time: 80588333 ps  Iteration: 3  Process: /test_recv_new/cor_sync_uO/ram_sum_q_u0/U0/native_mem_module/mem_module/line__3418  File: E:/sync_project/project_1/project_1.ip_user_files/ipstatic/blk_mem_gen_v8_3_1/simulation/blk_mem_gen_v8_3.vhd

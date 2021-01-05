@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/imports/new/cor_walsh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cor_walsh
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2458] undeclared symbol clk_in1_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:92]
+INFO: [VRFC 10-2458] undeclared symbol clk_out1_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:161]
+INFO: [VRFC 10-2458] undeclared symbol clk_out2_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:163]
+INFO: [VRFC 10-2458] undeclared symbol clk_out3_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:165]
+INFO: [VRFC 10-2458] undeclared symbol clk_out4_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:167]
+INFO: [VRFC 10-2458] undeclared symbol clk_out5_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:169]
+INFO: [VRFC 10-2458] undeclared symbol clk_out6_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:170]
+INFO: [VRFC 10-2458] undeclared symbol clk_out7_clk_wiz_1, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:171]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/imports/new/get_freq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module get_freq
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/imports/new/sync_head_send.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_head_send
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/imports/new/send_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module send_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/imports/new/cor_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cor_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/imports/new/clk_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sources_1/imports/new/recv_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recv_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.srcs/sim_1/imports/new/test_recv_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_recv_new
+INFO: [VRFC 10-2458] undeclared symbol recv_synci_en, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sim_1/imports/new/test_recv_new.v:131]
+INFO: [VRFC 10-2458] undeclared symbol recv_syncq_en, assumed default net type wire [E:/sync_project/project_1/project_1.srcs/sim_1/imports/new/test_recv_new.v:132]
+WARNING: [VRFC 10-756] identifier dds_freq_recv is used before its declaration [E:/sync_project/project_1/project_1.srcs/sim_1/imports/new/test_recv_new.v:130]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/sync_project/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

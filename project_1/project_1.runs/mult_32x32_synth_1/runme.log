@@ -1,0 +1,814 @@
+
+*** Running vivado
+    with args -log mult_32x32.vds -m64 -mode batch -messageDb vivado.pb -notrace -source mult_32x32.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source mult_32x32.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/software_install/vivado2015_4/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_sim_netlist.vhdl'. Please regenerate to continue.
+Command: synth_design -top mult_32x32 -part xc7vx485tffg1157-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 301.133 ; gain = 128.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mult_32x32' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:69]
+WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:73]
+WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:73]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_10' declared at 'e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:116' bound to instance 'U0' of component 'mult_gen_v12_0_10' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_v12_0_10' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:155]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_10_viv' declared at 'e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:20732' bound to instance 'i_mult' of component 'mult_gen_v12_0_10_viv' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_v12_0_10_viv' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:20781]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:862]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:863]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:870]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:884]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:891]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:901]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:910]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:932]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:939]
+INFO: [Synth 8-638] synthesizing module 'dsp' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:9916]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1374]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1466]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1467]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1469]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1470]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1484]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1485]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1487]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1488]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1399]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1400]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1450]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1466]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1467]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1469]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1470]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1484]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1485]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1487]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1488]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:8892]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:8913]
+INFO: [Synth 8-638] synthesizing module 'op_resize' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4028]
+INFO: [Synth 8-256] done synthesizing module 'op_resize' (1#1) [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4028]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "yes" *) [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:10381]
+INFO: [Synth 8-638] synthesizing module 'delay_line' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4160]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e' to cell 'SRL16E' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4297]
+INFO: [Synth 8-113] binding component instance 'i_fdre' to cell 'FDRE' [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4309]
+INFO: [Synth 8-256] done synthesizing module 'delay_line' (2#1) [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4160]
+INFO: [Synth 8-256] done synthesizing module 'dsp' (3#1) [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:9916]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_v12_0_10_viv' (4#1) [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:20781]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_v12_0_10' (5#1) [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:155]
+INFO: [Synth 8-256] done synthesizing module 'mult_32x32' (6#1) [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:69]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 345.871 ; gain = 173.348
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 345.871 ; gain = 173.348
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+Parsing XDC File [E:/hust_work/submit/v13/project_1/project_1.runs/mult_32x32_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/hust_work/submit/v13/project_1/project_1.runs/mult_32x32_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 771.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:48 ; elapsed = 00:00:53 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 771.938 ; gain = 599.414
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[16].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[16].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[17].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[17].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[18].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[18].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[19].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[19].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[20].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[20].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.runt_srl_loop.i_fdre ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 771.938 ; gain = 599.414
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:16 ; elapsed = 00:01:21 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:21 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:16 ; elapsed = 00:01:21 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:16 ; elapsed = 00:01:21 . Memory (MB): peak = 771.938 ; gain = 599.414
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:16 ; elapsed = 00:01:21 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |DSP48E1 |     1|
+|2     |SRL16E  |    32|
+|3     |FDRE    |    32|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:57 . Memory (MB): peak = 771.938 ; gain = 120.941
+Synthesis Optimization Complete : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 771.938 ; gain = 599.414
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+126 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 771.938 ; gain = 547.008
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 771.938 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 02 16:14:02 2020...
+
+*** Running vivado
+    with args -log mult_32x32.vds -m64 -mode batch -messageDb vivado.pb -notrace -source mult_32x32.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source mult_32x32.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_32x32' generated file not found 'e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_sim_netlist.vhdl'. Please regenerate to continue.
+Command: synth_design -top mult_32x32 -part xc7vx485tffg1157-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 307.512 ; gain = 135.770
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mult_32x32' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:69]
+WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:73]
+WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:73]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_10' declared at 'e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:116' bound to instance 'U0' of component 'mult_gen_v12_0_10' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_v12_0_10' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:155]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_10_viv' declared at 'e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:20732' bound to instance 'i_mult' of component 'mult_gen_v12_0_10_viv' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_v12_0_10_viv' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:20781]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:862]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:863]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:870]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:884]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:891]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:901]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:910]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:932]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:939]
+INFO: [Synth 8-638] synthesizing module 'dsp' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:9916]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1374]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1466]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1467]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1469]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1470]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1484]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1485]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1487]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1488]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1399]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1400]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1450]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1466]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1467]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1469]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1470]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1484]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1485]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1487]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:1488]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:8892]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:8913]
+INFO: [Synth 8-638] synthesizing module 'op_resize' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4028]
+INFO: [Synth 8-256] done synthesizing module 'op_resize' (1#1) [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4028]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "yes" *) [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:10381]
+INFO: [Synth 8-638] synthesizing module 'delay_line' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4160]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e0' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4253]
+INFO: [Synth 8-113] binding component instance 'i_fdre0' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4265]
+INFO: [Synth 8-113] binding component instance 'i_srl16e1' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4274]
+INFO: [Synth 8-113] binding component instance 'i_fdre1' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4286]
+INFO: [Synth 8-113] binding component instance 'i_srl16e' to cell 'SRL16E' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4297]
+INFO: [Synth 8-113] binding component instance 'i_fdre' to cell 'FDRE' [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4309]
+INFO: [Synth 8-256] done synthesizing module 'delay_line' (2#1) [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:4160]
+INFO: [Synth 8-256] done synthesizing module 'dsp' (3#1) [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:9916]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_v12_0_10_viv' (4#1) [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd:20781]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_v12_0_10' (5#1) [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd:155]
+INFO: [Synth 8-256] done synthesizing module 'mult_32x32' (6#1) [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/synth/mult_32x32.vhd:69]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 350.129 ; gain = 178.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 350.129 ; gain = 178.387
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+Parsing XDC File [E:/sync_project/project_1/project_1.runs/mult_32x32_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/sync_project/project_1/project_1.runs/mult_32x32_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 772.402 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 772.402 ; gain = 600.660
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[16].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[16].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[17].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[17].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[18].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[18].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[19].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[19].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[20].i_fdre0 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.srl_loop[20].i_fdre1 ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+INFO: [Synth 8-3332] Sequential element (\gDSP.gDSP_only.iDSP/inferred_dsp.Pdelay/dN_hlutnm.runt_srl_loop.i_fdre ) is unused and will be removed from module mult_gen_v12_0_10_viv.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 772.402 ; gain = 600.660
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |DSP48E1 |     1|
+|2     |SRL16E  |    32|
+|3     |FDRE    |    32|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:32 . Memory (MB): peak = 772.402 ; gain = 86.289
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 772.402 ; gain = 600.660
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/sync_project/project_1/project_1.srcs/sources_1/ip/mult_32x32/mult_32x32_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+126 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 772.402 ; gain = 548.641
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 772.402 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 16 09:10:23 2020...

@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xbip_utils_v3_0_5  "../../../project_1.ip_user_files/ipstatic/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd"
+vhdl xbip_pipe_v3_0_1  "../../../project_1.ip_user_files/ipstatic/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0_vh_rfs.vhd"
+vhdl xbip_pipe_v3_0_1  "../../../project_1.ip_user_files/ipstatic/xbip_pipe_v3_0_1/hdl/xbip_pipe_v3_0.vhd"
+vhdl xbip_bram18k_v3_0_1  "../../../project_1.ip_user_files/ipstatic/xbip_bram18k_v3_0_1/hdl/xbip_bram18k_v3_0_vh_rfs.vhd"
+vhdl xbip_bram18k_v3_0_1  "../../../project_1.ip_user_files/ipstatic/xbip_bram18k_v3_0_1/hdl/xbip_bram18k_v3_0.vhd"
+vhdl mult_gen_v12_0_10  "../../../project_1.ip_user_files/ipstatic/mult_gen_v12_0_10/hdl/mult_gen_v12_0_vh_rfs.vhd"
+vhdl mult_gen_v12_0_10  "../../../project_1.ip_user_files/ipstatic/mult_gen_v12_0_10/hdl/mult_gen_v12_0.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/ip/mult_32x32/sim/mult_32x32.vhd"
+vhdl dist_mem_gen_v8_0_9  "../../../project_1.ip_user_files/ipstatic/dist_mem_gen_v8_0_9/simulation/dist_mem_gen_v8_0.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/ip/walshtable/sim/walshtable.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/ip/syncprotect_lutrom/sim/syncprotect_lutrom.vhd"
+vhdl blk_mem_gen_v8_3_1  "../../../project_1.ip_user_files/ipstatic/blk_mem_gen_v8_3_1/simulation/blk_mem_gen_v8_3.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/ip/ram_sum/sim/ram_sum.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/ip/ram_2port_0/sim/ram_2port_0.vhd"
+
+# Do not sort compile order
+nosort

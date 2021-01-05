@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="syncprotect_lutrom_synth_1" LaunchDir="E:/hust_work/submit/v13/project_1/project_1.runs/syncprotect_lutrom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="walshtable_synth_1" LaunchDir="E:/hust_work/submit/v13/project_1/project_1.runs/walshtable_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

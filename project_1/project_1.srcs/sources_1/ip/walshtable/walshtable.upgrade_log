@@ -1,0 +1,83 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Oct 02 16:06:44 2020
+| Host         : chensy-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1157-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'walshtable'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of walshtable (xilinx.com:ip:dist_mem_gen:8.0 (Rev. 9)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. When checking the upgrade script, note that parameter names are case sensitive.
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'walshtable'. These changes may impact your design.
+
+
+-upgrade has removed port 'qspo'
+-upgrade has added port 'd'
+-upgrade has added port 'spo'
+-upgrade has added port 'we'
+
+4. Customization warnings
+-------------------------
+
+WARNING: Validation failed on parameter 'Coefficients File(coefficient_file)' for Invalid COE File- Unable to open the file e:/hust_work/submit/v13/project_1/project_1.srcs/sources_1/ip/walsh_table.coe 
+. IP 'walshtable'
+
+WARNING: Customization errors found on 'walshtable'. Restoring to previous valid configuration.
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:dist_mem_gen:8.0 -user_name walshtable
+set_property -dict "\
+  CONFIG.Component_Name walshtable \
+  CONFIG.Pipeline_Stages 0 \
+  CONFIG.ce_overrides ce_overrides_sync_controls \
+  CONFIG.coefficient_file ../walsh_table.coe \
+  CONFIG.common_output_ce false \
+  CONFIG.common_output_clk false \
+  CONFIG.data_width 32 \
+  CONFIG.default_data 0 \
+  CONFIG.default_data_radix 16 \
+  CONFIG.depth 64 \
+  CONFIG.dual_port_address non_registered \
+  CONFIG.dual_port_output_clock_enable false \
+  CONFIG.input_clock_enable false \
+  CONFIG.input_options non_registered \
+  CONFIG.memory_type rom \
+  CONFIG.output_options registered \
+  CONFIG.qualify_we_with_i_ce false \
+  CONFIG.reset_qdpo false \
+  CONFIG.reset_qsdpo false \
+  CONFIG.reset_qspo false \
+  CONFIG.simple_dual_port_address non_registered \
+  CONFIG.simple_dual_port_output_clock_enable false \
+  CONFIG.single_port_output_clock_enable false \
+  CONFIG.sync_reset_qdpo false \
+  CONFIG.sync_reset_qsdpo false \
+  CONFIG.sync_reset_qspo false " [get_ips walshtable]
+
+

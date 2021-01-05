@@ -1,0 +1,88 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto f5a0df1320994e459de06066fa9bc256 --debug typical --relax --mt 2 -L xbip_utils_v3_0_5 -L xbip_pipe_v3_0_1 -L xbip_bram18k_v3_0_1 -L mult_gen_v12_0_10 -L xil_defaultlib -L dist_mem_gen_v8_0_9 -L blk_mem_gen_v8_3_1 -L unisims_ver -L unimacro_ver -L secureip --snapshot test_recv_new_behav xil_defaultlib.test_recv_new xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_textio
+Compiling package mult_gen_v12_0_10.mult_gen_v12_0_10_viv_comp
+Compiling package xbip_utils_v3_0_5.xbip_utils_v3_0_5_pkg
+Compiling package mult_gen_v12_0_10.mult_gen_v12_0_10_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_10.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=48.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.clk_ctrl
+Compiling module xil_defaultlib.get_freq
+Compiling module xil_defaultlib.send_ctrl
+Compiling architecture behavioral of entity dist_mem_gen_v8_0_9.dist_mem_gen_v8_0_9 [\dist_mem_gen_v8_0_9("virtex7",6...]
+Compiling architecture walshtable_arch of entity xil_defaultlib.walshtable [walshtable_default]
+Compiling architecture behavioral of entity dist_mem_gen_v8_0_9.dist_mem_gen_v8_0_9 [\dist_mem_gen_v8_0_9("virtex7",6...]
+Compiling architecture syncprotect_lutrom_arch of entity xil_defaultlib.syncprotect_lutrom [syncprotect_lutrom_default]
+Compiling module xil_defaultlib.sync_head_send
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_softecc_output_reg_stage [\blk_mem_gen_v8_3_1_softecc_outp...]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_mem_module [\blk_mem_gen_v8_3_1_mem_module("...]
+Compiling architecture behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1 [\blk_mem_gen_v8_3_1("blk_mem_gen...]
+Compiling architecture ram_2port_0_arch of entity xil_defaultlib.ram_2port_0 [ram_2port_0_default]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_softecc_output_reg_stage [\blk_mem_gen_v8_3_1_softecc_outp...]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_mem_module [\blk_mem_gen_v8_3_1_mem_module("...]
+Compiling architecture behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1 [\blk_mem_gen_v8_3_1("blk_mem_gen...]
+Compiling architecture ram_sum_arch of entity xil_defaultlib.ram_sum [ram_sum_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E("0000000000000000",'0')(...]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE('0','0','0','0')\]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.delay_line [\delay_line("virtex7",true,1,0,4...]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.op_resize [\op_resize(16,16,0,0,0,25,18)\]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.dsp [\dsp("virtex7",16,0,16,0,1,0,6,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.mult_gen_v12_0_10_viv [\mult_gen_v12_0_10_viv(0,0,1,"vi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.mult_gen_v12_0_10 [\mult_gen_v12_0_10(0,0,1,"virtex...]
+Compiling architecture mult_32x32_arch of entity xil_defaultlib.mult_32x32 [mult_32x32_default]
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16)
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_walsh(WIDTH_DATA_RECV=16,WAL...
+Compiling module xil_defaultlib.cor_sync
+Compiling module xil_defaultlib.recv_ctrl
+Compiling module xil_defaultlib.test_recv_new
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_recv_new_behav

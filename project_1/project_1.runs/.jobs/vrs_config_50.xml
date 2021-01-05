@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ram_2port_0_synth_1" LaunchDir="E:/sync_project/project_1/project_1.runs/ram_2port_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ram_sum_synth_1" LaunchDir="E:/sync_project/project_1/project_1.runs/ram_sum_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mult_32x32_synth_1" LaunchDir="E:/sync_project/project_1/project_1.runs/mult_32x32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/sync_project/project_1/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ram_2port_0_synth_1"/>
+		<Parent Id="ram_sum_synth_1"/>
+		<Parent Id="mult_32x32_synth_1"/>
+	</Run>
+</Runs>
+
